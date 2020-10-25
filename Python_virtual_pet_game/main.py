@@ -112,7 +112,7 @@ def main_2():
         elif choice == 5:
             for pet in pets:
                 pet.get_toy(Toy())
-
+                
         elif choice == 6:
             # Pet levels naturally lower.
             for pet in pets:

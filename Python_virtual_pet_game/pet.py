@@ -1,6 +1,7 @@
 
 
-## Defining a class called Pet which is the parent, using the init method that holds arguements for the class Pet
+## Defining a class called Pet which is the parent, using the init method that holds arguements & below the arguements is 
+# instances variables for the class Pet
 # This class has mulitple methods of a dog's actions/behavior when you play, feed, do nothing, etc. 
 
 class Pet:
@@ -21,11 +22,12 @@ class Pet:
     def be_alive(self):
         self.fullness -= self.hunger
         self.happiness -= self.mopiness
-        for toy in self.toys:
-            self.happiness += toy.use()
+        
 
     def get_toy(self, toy):
         self.toys.append(toy)
+        for toy in self.toys:
+            self.happiness += toy.use()
 
     def __str__(self):
         return """
@@ -42,14 +44,12 @@ class Pet:
 
 class CuddlyPet(Pet):
     def __init__(self, name, fullness=50, hunger=5, cuddle_level=1):
-        super().__init__(name, fullness, 100, hunger, 1)
+        super().__init__(name, fullness, 100, hunger,)
         self.cuddle_level = cuddle_level
     
     def be_alive(self):
         self.fullness -= self.hunger
         self.happiness -= self.mopiness/2
-        for toy in self.toys:
-            self.happiness += toy.use()
         
     def cuddle(self, other_pet):
         # Super cuddle powers, activate!
