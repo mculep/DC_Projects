@@ -1,6 +1,6 @@
 
 
-## Defining a class called Pet which is the parent, using the init method that holds attributes for the class Pet
+## Defining a class called Pet which is the parent, using the init method that holds arguements for the class Pet
 # This class has mulitple methods of a dog's actions/behavior when you play, feed, do nothing, etc. 
 
 class Pet:
