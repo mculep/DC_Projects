@@ -17,8 +17,8 @@ pets = []
 main_menu = [   
     "Enter 1 to adopt a dog:\n",
 ]
-# ---- I created a sub-menu so "Adopt a dog" would not be on the main list of things to do with your new dog. I want
-# player to have only one dog.  ----
+# I created a sub-menu so "Adopt a dog" would not be on the main list of things to do with your new dog. I want
+# player to have only one dog.
 
 second_menu = [   
     
@@ -70,6 +70,8 @@ def get_user_choice(choice_list):
 
 
 # This function loops to the main menu choice above
+# When player clicks on 1 to adopt a new pet. It then goes ahead to ask player a couple questions. 
+# It is also appending from Cuddlypet in the pet.py
 
 def main():    
     while True:
@@ -87,7 +89,7 @@ def main():
             break
 
 
-# Created another funtion to grab the values from  "second_menu" and goes through th list of choices above
+# I created another method to grab the values from  "second_menu" and goes through th list of choices above
 # This acts like a sub - menu.
 
 def main_2():    
