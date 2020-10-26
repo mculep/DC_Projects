@@ -18,7 +18,7 @@ main_menu = [
     "Enter 1 to adopt a dog:\n",
 ]
 # I created a sub-menu so "Adopt a dog" would not be on the main list of things to do with your new dog. I want
-# player to have only one dog.
+# player to have only one dog.  
 
 second_menu = [   
     

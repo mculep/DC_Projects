@@ -1,5 +1,4 @@
 
-
 ## Defining a class called Pet which is the parent, using the init method that 
 # holds parameters & below the arguements is instances variables for the class Pet. 
 # This is called everytime a new dog is created. This class has mulitple methods of 
