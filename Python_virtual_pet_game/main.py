@@ -1,4 +1,11 @@
+
 ####################################################################
+from subprocess import call 
+import os 
+def clear(): 
+    call('clear' if os.name =='posix' else 'cls') 
+clear()
+
 
 from pet import Pet, CuddlyPet
 from toy import Toy
@@ -91,6 +98,7 @@ def main():
 
 # I created another method to grab the values from  "second_menu" and goes through th list of choices above
 # This acts like a sub - menu.
+# 
 
 def main_2():    
     while True:    
