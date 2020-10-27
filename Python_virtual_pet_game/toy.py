@@ -1,5 +1,3 @@
-
-
 class Toy:
     def __init__(self, bonus=10, newness=10):
         self.bonus = 10
