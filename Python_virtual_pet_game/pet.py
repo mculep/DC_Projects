@@ -41,7 +41,7 @@ class Pet:
 
 # Cuddlypet is a chlild class. While CuddlyPet has it's own __init__ method, it 
 # overrides class Pet it only has access to the functions not the properties.
-# The CuddlyPet also has a super() function which will go to class Pet and call the funcions
+# The CuddlyPet also has a super() function which will go to class Pet and call the functions
 # to instantiate class Pet's properties. 
 
 class CuddlyPet(Pet):
