@@ -44,7 +44,7 @@ adoption_menu = [
     "A Cuddly dog\n"
 ]
 
-######################## ERROR FUNTIONS / CHOICE FUNCTIONS #######################
+######################## ERROR METHOD / CHOICE METHOD #######################
 
 
 def print_menu_error():
@@ -72,7 +72,7 @@ def get_user_choice(choice_list):
     return choice
 
 
-######################## ADOPTION MENU WITH ADOPTION FUNCTIONS #######################
+######################## ADOPTION MENU WITH ADOPTION METHOD #######################
 
 # This function loops to the main menu choice above
 # When player clicks on 1 to adopt a new pet. It then goes ahead to ask player a couple questions. 
