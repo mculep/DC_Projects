@@ -1,5 +1,6 @@
 
 ####################################################################
+
 from subprocess import call 
 import os 
 def clear(): 
@@ -43,8 +44,6 @@ adoption_menu = [
     "A Cuddly dog\n"
 ]
 
-
-
 ######################## ERROR FUNTIONS / CHOICE FUNCTIONS #######################
 
 
@@ -74,7 +73,6 @@ def get_user_choice(choice_list):
 
 
 ######################## ADOPTION MENU WITH ADOPTION FUNCTIONS #######################
-
 
 # This function loops to the main menu choice above
 # When player clicks on 1 to adopt a new pet. It then goes ahead to ask player a couple questions. 
@@ -137,7 +135,6 @@ def main_2():
 
 main()
 main_2()
-
 
 ########################################################################
 
