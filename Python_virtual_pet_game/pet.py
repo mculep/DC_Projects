@@ -2,7 +2,7 @@
 ## Defining a class called Pet which is the parent, using the init method that 
 # holds parameters & below the arguements is instances variables for the class Pet. 
 # This is called everytime a new dog is created. This class has mulitple methods of 
-#a dog's actions/behavior when you play, feed, do nothing, etc. 
+# a dog's actions/behavior when you play, feed, do nothing, etc. 
 
 class Pet:
     def __init__(self, name, fullness=50, happiness=50, hunger=5, mopiness=5):
