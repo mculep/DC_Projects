@@ -1,2 +1,2 @@
-# DC_Projects
+# Python Pets
 All my projects from DigitalCrafts. 
